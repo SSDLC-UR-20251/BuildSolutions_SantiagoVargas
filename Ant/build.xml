@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="BuildSolutions-Ant" default="run" basedir=".">
+   <target name="run">
+      <echo message="Ejecutando el script Python..."/>
+      <exec executable="python3">
+         <!-- Pasamos el nombre del script y un argumento (por ejemplo, 5 códigos) -->
+         <arg value="main.py"/>               <!-- El nombre del archivo Python -->
+         <arg value="5"/>                     <!-- Argumento: cantidad de códigos a generar -->
+      </exec>
+   </target>
+</project>

@@ -1,0 +1,10 @@
+{
+    "juan.jose@urosario.edu.co": [
+        {
+            "balance": "100",
+            "type": "Deposit",
+            "timestamp": "2025-02-11 14:17:21.921536"
+        }
+    ],
+    "sara.palaciosc@urosario.edu.co": []
+}
